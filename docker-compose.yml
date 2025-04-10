@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  inference-server:
+    image: usmanis0115754/ml-structures-api:latest
+    ports:
+      - "5000:5000"
