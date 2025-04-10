@@ -4,6 +4,7 @@ curl -X POST http://127.0.0.1:5000/inference -F "image=@data/damage/-93.66109_30
 {
   "prediction": "damage"
 }
+
 curl localhost:5000/summary
 {
   "description": "Classify images based on if they contain damage or no damage",
